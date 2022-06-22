@@ -1,0 +1,195 @@
+.container{
+   margin: 120px auto;
+}
+#draggable {
+	width: 150px; height: 150px; padding: 0.5em; background-color: darkred;
+	color: #ffffff;
+}
+
+ul {
+   
+   list-style-type: none; margin: 0; padding: 0; margin-bottom: 10px;
+
+}
+li {
+   
+   margin: 5px; padding: 5px; width: 150px;
+
+}
+
+#dragga {
+
+	width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0;
+
+}
+#dragga {
+
+	width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px;
+
+}
+
+#gallery {
+
+	float: left; width: 65%; min-height: 12em;
+
+}
+ .gallery.custom-state-active {
+
+ 	background: #eee;
+
+ }
+ .gallery li {
+
+ 	float: left; width: 96px; padding: 0.4em; margin: 0 0.4em 0.4em 0; text-align: center;
+
+ }
+ .gallery li h5 {
+
+ 	margin: 0 0 0.4em; cursor: move;
+
+ }
+ .gallery li a {
+
+ 	float: right;
+
+ }
+ .gallery li a.ui-icon-zoomin {
+
+ 	float: left;
+
+ }
+ .gallery li img {
+
+ 	width: 100%; cursor: move;
+
+ }
+ 
+ #trash {
+
+ 	float: right; width: 32%; min-height: 18em; padding: 1%;
+
+ }
+ #trash h4 {
+
+ 	line-height: 16px; margin: 0 0 0.4em;
+
+ }
+ #trash h4 .ui-icon {
+
+ 	float: left; }
+ #trash .gallery h5 {
+
+ 	display: none;
+
+}
+
+#resizable {
+
+   width: 150px; height: 150px; padding: 0.5em;
+
+}
+#resizable h3 {
+
+   text-align: center; margin: 0;
+
+}
+
+#container {
+
+   width: 500px; height: 500px;
+}
+#container h3 {
+
+   text-align: center; margin: 0; margin-bottom: 10px;
+}
+#resiz {
+
+   background-position: top left; width: 150px; height: 150px;
+}
+#resiz, #container {
+
+   padding: 0.5em;
+}
+
+#feedback {
+
+   font-size: 1.4em;
+}
+#selectable .ui-selecting {
+
+   background: #FECA40;
+}
+#selectable .ui-selected {
+
+   background: #F39814; color: white;
+}
+#selectable {
+
+   list-style-type: none; margin: 0 auto; padding: 0; width: 450px;
+}
+#selectable li {
+
+   margin: 3px;
+   padding: 1px;
+   float: left;
+   width: 100px;
+   height: 100px;
+   font-size: 4em;
+   text-align: center;
+}
+
+.column {
+    width: 170px;
+    float: left;
+    padding-bottom: 100px;
+}
+.portlet {
+    margin: 0 1em 1em 0;
+    padding: 0.3em;
+}
+.portlet-header {
+    padding: 0.2em 0.3em;
+    margin-bottom: 0.5em;
+    position: relative;
+}
+.portlet-toggle {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -8px;
+}
+.portlet-content {
+    padding: 0.4em;
+}
+.portlet-placeholder {
+    border: 1px dotted black;
+    margin: 0 1em 1em 0;
+    height: 50px;
+}
+
+.ui-menu {
+   width: 150px; 
+}
+
+.toggler {
+
+   width: 500px;
+   height: 200px;
+   position: relative;
+}
+#button { 
+   padding: .5em 1em;
+   text-decoration: none; 
+}
+#effect { 
+   width: 240px;
+   height: 170px;
+   padding: 0.4em;
+   position: relative;
+   background: #fff; 
+}
+#effect h3 {
+   margin: 0; 
+   padding: 0.4em;
+   text-align: center;
+}
